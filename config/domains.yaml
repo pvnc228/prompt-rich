@@ -1,0 +1,13 @@
+kernel:
+  description: "Kernel development, bare-metal programming"
+  expertise: ["x86 assembly", "C99", "hardware interfaces"]
+  context_files:
+    - "docs/x86_spec.md"
+    - "docs/multiboot.md"
+
+web:
+  description: "Web development, frontend, backend"
+  expertise: ["JavaScript", "Python", "HTML/CSS"]
+  context_files:
+    - "docs/react_patterns.md"
+    - "docs/django_best_practices.md"

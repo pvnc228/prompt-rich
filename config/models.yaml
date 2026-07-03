@@ -1,0 +1,15 @@
+classifier:
+  model: "qwen2.5-1.5b-instruct"
+  adapter: "ollama"
+  temperature: 0.3
+
+rewriter:
+  model: "qwen2.5-7b-instruct"
+  adapter: "ollama"
+  temperature: 0.5
+
+executor:
+  model: "qwen2.5-72b-instruct"
+  adapter: "vllm"
+  temperature: 0.7
+  max_tokens: 4096
