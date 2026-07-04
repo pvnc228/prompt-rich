@@ -1,0 +1,8 @@
+Проанализируй запрос пользователя и верни JSON с полями:
+- domain: kernel|web|data|devops|general
+- task_type: implement|debug|refactor|explain|review
+- keywords: список ключевых слов через запятую
+
+Запрос: {user_input}
+
+Ответ (только JSON):

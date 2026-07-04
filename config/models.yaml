@@ -12,4 +12,4 @@ executor:
   adapter: "groq"
   model: "openai/gpt-oss-120b"
   temperature: 0.7
-  api_key_env: "GROQ_API_KEY"  # брать из переменной окружения
+  api_key_env: "GROQ_API_KEY"  
